@@ -1,0 +1,198 @@
+.header {
+  padding: 30px 0 0 60px;
+  width: 100%;
+  background: #FFFFFF;
+  padding: 30px 0 60px;
+  font-family: 'Open Sans Condensed';
+
+a { margin: 0;
+    &:hover{
+      text-decoration: none;
+      color: #000000;
+     }
+  }
+
+&-img {
+  width: 250px;
+  height: 100px;
+  background: url("./img/mailchimp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+&-style {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  color: #000000;
+  padding: 10px 50px 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// &__title {
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 48px;
+//   line-height: 72px;
+//   font-family: 'Open Sans Condensed';
+//   margin: 0;
+//   }
+
+// &__text-italic {
+//   font-style: italic;
+//   font-family: 'Open Sans Condensed';
+//   font-weight: 300;
+//   font-size: 36px;
+//   line-height: 54px;
+//   color: black;
+//   }
+
+// &__text {
+//   font-family: 'Open Sans Condensed';
+//   font-style: normal;
+//   font-weight: 300;
+//   font-size: 36px;
+//   line-height: 54px;
+//   color: black;
+//   }
+
+// &__text-style {
+//   color: black;
+//   margin: 0 auto;
+//   }
+
+// &__text:hover {
+//   background-color: lightblue;
+//   width: 400px;
+//   }
+
+// &__text:active {
+//   background-color: dodgerblue;
+//   }
+
+// &__text-style {
+//   background-color: cadetblue;
+//   cursor: pointer;
+//   }
+
+// &__text-style::before {
+//   background: linear-gradient(to top, #f6feff, #026ccf);
+//   }
+
+// &__text-style-color {
+//   background: linear-gradient(90deg, #fdfdfd, #38d2f8);
+//   color: black;
+//   }
+}
+.main {
+  font-family: 'Open Sans Condensed';
+  width: 100%;
+  background: url("./img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0; 
+
+  &__main-contakts-img {
+    background: url("./img/Rectangle.png");
+  }
+
+  &__main-contakts-img {
+    background: url("./img/Rectangle_3.png");
+  }
+
+&__title {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  padding: 0px;
+}
+
+&__text {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;   
+  color: #FFFFFF;
+  margin: 0;
+}
+
+&__contakts-title {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+
+&-contakts-img {
+  background-image: url("./img/Rectangle_3.png");
+}
+
+&__contakts-list {
+  color: black;
+}
+}
+
+.footer {
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: 'Open Sans Condensed';
+
+&-text {
+  width: 100%;
+  background-image: url("./img/Rectangle_4.png");
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  padding: 0;
+  text-align: right;
+}
+}
+
+
+
+
+
+// $width: 30px;
+// $height: $width * 2;
+// $qwe: linear-gradient(rgb(190, 30, 30), rgb(37,190, 39));
+
+// @mixin min() {
+//   font-size: 36px;
+ 
+// }
+
+// .test {
+//   p {
+//     color: aqua;
+//   }
+//   @include min();
+//   width: $width;
+//   height: $height;
+//   background: $qwe;
+// }
+// .test2 {
+//   @extend .test
+// }
